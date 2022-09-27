@@ -10,4 +10,10 @@ Part 1:
    touch luke.txt ben_kenobi.txt
 
 Part 2:
-    
+    renamed ben_kenobi.txt to obi_wan.txt
+
+Part 3:
+    cd ..
+    cd death_star
+    cp storm_trooper.txt ../tatooine/
+
