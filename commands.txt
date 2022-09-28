@@ -25,5 +25,9 @@ Part 4:
     mv millenium_falcon/ ./death_star/
     cd death_star/
     mv princess_leia.txt ./millenium_falcon/
-    
+
+Part 5:
+   cd death_star/
+   cd millenium_falcon/
+   rm obi_wan.txt 
 
