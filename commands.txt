@@ -47,3 +47,16 @@ Part 6:
     cp storm_trooper.txt ./tie_fighter_2
     cp storm_trooper.txt ./tie_fighter_3
     mv ./tie_fighter_1 ./tie_fighter_2 ./tie_fighter_3 ..
+
+Part 7:
+    $ rm -r ./tie_fighter_2
+    rm -r ./tie_fighter_3
+
+Part 8:
+     cd x_wing/
+     touch the_force.txt
+     cd ..
+     rm -r death_star/
+     mv millenium_falcon/ x_wing/ ./yavin_4/
+
+     
