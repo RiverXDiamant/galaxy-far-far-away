@@ -17,3 +17,13 @@ Part 3:
     cd death_star
     cp storm_trooper.txt ../tatooine/
 
+Part 4:
+    cd tatooine/
+    mv luke.txt obi_wan.txt ./millenium_falcon/
+    mv millenium_falcon/ ..
+    cd ..
+    mv millenium_falcon/ ./death_star/
+    cd death_star/
+    mv princess_leia.txt ./millenium_falcon/
+    
+
