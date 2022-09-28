@@ -31,3 +31,19 @@ Part 5:
    cd millenium_falcon/
    rm obi_wan.txt 
 
+Part 6:
+    mkdir yavin_4
+    cd death_star/
+    mv millenium_falcon/ ../yavin_4/
+    cd ..
+    cd yavin_4/
+    cd millenium_falcon/
+    mv luke.txt ../x_wing/
+    mv millenium_falcon/ x_wing/ ..
+    cd ..
+    cd death_star/
+    mkdir tie_fighter_1 tie_fighter_2 tie_fighter_3
+    mv darth_vader.txt ./tie_fighter_1
+    cp storm_trooper.txt ./tie_fighter_2
+    cp storm_trooper.txt ./tie_fighter_3
+    mv ./tie_fighter_1 ./tie_fighter_2 ./tie_fighter_3 ..
